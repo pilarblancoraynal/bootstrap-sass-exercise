@@ -1,0 +1,39 @@
+
+@import 'abstracts/base';
+
+//bootstrap style
+@import '../bootstrap/scss/bootstrap-reboot';
+@import '../bootstrap/scss/utilities';
+@import '../bootstrap/scss/root';
+@import '../bootstrap/scss/grid';
+@import '../bootstrap/scss/forms';
+@import '../bootstrap/scss/transitions';
+@import '../bootstrap/scss/card';
+@import '../bootstrap/scss/buttons';
+@import '../bootstrap/scss/list-group';
+@import '../bootstrap/scss/type';
+
+
+@import 'default/base';
+
+@media only screen and(min-width: $sm-breakpoint) { 
+  @import 'sm-up/base';
+}
+
+@media only screen and (min-width: $md-breakpoint) {
+
+  @import 'md-up/base';
+
+}
+
+@media only screen and (min-width: $lg-breakpoint) {
+
+  @import 'lg-up/base';
+
+}
+
+@media only screen and (max-width: $md-breakpoint) {
+ 
+  @import 'sm-down/base';
+
+}

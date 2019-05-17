@@ -1,0 +1,28 @@
+
+$brand-color: #42f4bc;
+
+$theme-colors: (
+    "primary": $brand-color,
+    "danger": #ff4136,
+    "secondary": yellow
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+  xl: 1600px,
+);
+
+$sm-breakpoint: map($grid-breakpoints, sm);
+$md-breakpoint: map($grid-breakpoints, md);
+$lg-breakpoint: map($grid-breakpoints, lg);
+$xl-breakpoint: map($grid-breakpoints, xl);
+
+$container-max-widths: (
+  sm: 720px,
+  md: 960px,
+  lg: 1140px,
+  xl: 1400px
+);
